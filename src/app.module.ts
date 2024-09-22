@@ -6,8 +6,8 @@ import { AuthModule } from '@modules/auth/auth.module';
 import { PostModule } from '@modules/post/post.module';
 import { UserModule } from '@modules/user/user.module';
 
+import { AuditModule } from '@common/audit/audit.module';
 import { ENV_KEY } from '@common/constants';
-import { AuditModule } from "@common/audit/audit.module";
 
 @Module({
   imports: [
