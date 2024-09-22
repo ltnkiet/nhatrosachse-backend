@@ -22,7 +22,7 @@ const auditServiceProvider: Provider = {
 
     const gateway = shouldUseWebhook
       ? new WebhookAuditGateway(webhookUrl, httpService, {
-          projectName: 'vnc-trade',
+          projectName: 'nhatrosachse-be',
         })
       : new StdOutAuditGateway();
 
