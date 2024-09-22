@@ -1,4 +1,6 @@
 export enum ENV_KEY {
+  NODE_ENV = 'NODE_ENV',
+
   DB_HOST = 'DB_HOST',
   DB_PORT = 'DB_PORT',
   DB_USERNAME = 'DB_USERNAME',
@@ -9,6 +11,8 @@ export enum ENV_KEY {
 
   JWT_SECRET = 'JWT_SECRET',
   JWT_EXPIRATION = 'JWT_EXPIRATION',
+
+  AUDIT_WEBHOOK_URL = 'AUDIT_WEBHOOK_URL',
 }
 
 export const INJECTION_TOKEN = {
